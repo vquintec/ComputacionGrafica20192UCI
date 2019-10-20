@@ -5,14 +5,14 @@ using System.Collections;
 /// Creates wandering behaviour for a CharacterController.
 /// </summary>
 [RequireComponent(typeof(CharacterController))]
-public class BearScript2 : MonoBehaviour
+public class WolfScript : MonoBehaviour
 {
     public float speed = 5f;
     public float directionChangeInterval = 1;
     public float maxHeadingChange = 90;
     public Animator anim;
     private int count = 0;
-    private Vector3 noMove = new Vector3(0,0,0);
+    private Vector3 noMove = new Vector3(0, 0, 0);
     private bool moving = false;
 
     CharacterController controller;
@@ -39,7 +39,7 @@ public class BearScript2 : MonoBehaviour
     {
         transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
         var forward = transform.TransformDirection(Vector3.forward);
-        if(count < 400)
+        if (count < 400)
         {
             noMove = new Vector3(0, 0, 0);
             anim.SetBool("walk", false);
@@ -48,7 +48,7 @@ public class BearScript2 : MonoBehaviour
         {
             anim.SetBool("walk", true);
             noMove = forward / 5 * speed;
-            if(count >= 800)
+            if (count >= 800)
             {
                 count = 0;
             }
@@ -62,7 +62,7 @@ public class BearScript2 : MonoBehaviour
         // Change the cube color to green.
         if (other.tag == "Player")
         {
-            anim.SetBool("angry", true);
+            anim.SetBool("howl", true);
             controller.enabled = false;
         }
     }
@@ -71,10 +71,7 @@ public class BearScript2 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            anim.SetBool("roar",true);
-            anim.SetBool("roar", false);
-            anim.SetBool("angry", false);
-            anim.SetBool("noMoreAngry", true);
+            anim.SetBool("howl", false);
             controller.enabled = true;
         }
     }

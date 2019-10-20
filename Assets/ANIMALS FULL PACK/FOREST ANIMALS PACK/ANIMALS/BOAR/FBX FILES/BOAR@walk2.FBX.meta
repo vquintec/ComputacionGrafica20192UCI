@@ -1,83 +1,76 @@
 fileFormatVersion: 2
-guid: 112a03dadbf3f9c4584bdfd83f9741d3
+guid: 1d19e81b503b1a549b7d45a78af1a419
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: BEAR_
-    100004: BEAR_ Head
-    100006: BEAR_ L Calf
-    100008: BEAR_ L Clavicle
-    100010: BEAR_ L Finger0
-    100012: BEAR_ L Finger01
-    100014: BEAR_ L Foot
-    100016: BEAR_ L Forearm
-    100018: BEAR_ L Hand
-    100020: BEAR_ L Thigh
-    100022: BEAR_ L Toe0
-    100024: BEAR_ L Toe01
-    100026: BEAR_ L Toe02
-    100028: BEAR_ L UpperArm
-    100030: BEAR_ Neck
-    100032: BEAR_ Neck1
-    100034: BEAR_ Pelvis
-    100036: BEAR_ Queue de cheval 1
-    100038: BEAR_ R Calf
-    100040: BEAR_ R Clavicle
-    100042: BEAR_ R Finger0
-    100044: BEAR_ R Finger01
-    100046: BEAR_ R Foot
-    100048: BEAR_ R Forearm
-    100050: BEAR_ R Hand
-    100052: BEAR_ R Thigh
-    100054: BEAR_ R Toe0
-    100056: BEAR_ R Toe01
-    100058: BEAR_ R Toe02
-    100060: BEAR_ R UpperArm
-    100062: BEAR_ Spine
-    100064: BEAR_ Spine1
+    100002: BOAR_
+    100004: BOAR_ Head
+    100006: BOAR_ L Calf
+    100008: BOAR_ L Clavicle
+    100010: BOAR_ L Finger0
+    100012: BOAR_ L Finger0Nub
+    100014: BOAR_ L Foot
+    100016: BOAR_ L Forearm
+    100018: BOAR_ L Hand
+    100020: BOAR_ L HorseLink
+    100022: BOAR_ L Thigh
+    100024: BOAR_ L UpperArm
+    100026: BOAR_ Neck
+    100028: BOAR_ Neck1
+    100030: BOAR_ Neck2
+    100032: BOAR_ Pelvis
+    100034: BOAR_ Queue de cheval 1
+    100036: BOAR_ R Calf
+    100038: BOAR_ R Clavicle
+    100040: BOAR_ R Finger0
+    100042: BOAR_ R Finger0Nub
+    100044: BOAR_ R Foot
+    100046: BOAR_ R Forearm
+    100048: BOAR_ R Hand
+    100050: BOAR_ R HorseLink
+    100052: BOAR_ R Thigh
+    100054: BOAR_ R UpperArm
+    100056: BOAR_ Spine
+    100058: BOAR_ Spine1
     400000: //RootNode
-    400002: BEAR_
-    400004: BEAR_ Head
-    400006: BEAR_ L Calf
-    400008: BEAR_ L Clavicle
-    400010: BEAR_ L Finger0
-    400012: BEAR_ L Finger01
-    400014: BEAR_ L Foot
-    400016: BEAR_ L Forearm
-    400018: BEAR_ L Hand
-    400020: BEAR_ L Thigh
-    400022: BEAR_ L Toe0
-    400024: BEAR_ L Toe01
-    400026: BEAR_ L Toe02
-    400028: BEAR_ L UpperArm
-    400030: BEAR_ Neck
-    400032: BEAR_ Neck1
-    400034: BEAR_ Pelvis
-    400036: BEAR_ Queue de cheval 1
-    400038: BEAR_ R Calf
-    400040: BEAR_ R Clavicle
-    400042: BEAR_ R Finger0
-    400044: BEAR_ R Finger01
-    400046: BEAR_ R Foot
-    400048: BEAR_ R Forearm
-    400050: BEAR_ R Hand
-    400052: BEAR_ R Thigh
-    400054: BEAR_ R Toe0
-    400056: BEAR_ R Toe01
-    400058: BEAR_ R Toe02
-    400060: BEAR_ R UpperArm
-    400062: BEAR_ Spine
-    400064: BEAR_ Spine1
-    7400000: paralysed
+    400002: BOAR_
+    400004: BOAR_ Head
+    400006: BOAR_ L Calf
+    400008: BOAR_ L Clavicle
+    400010: BOAR_ L Finger0
+    400012: BOAR_ L Finger0Nub
+    400014: BOAR_ L Foot
+    400016: BOAR_ L Forearm
+    400018: BOAR_ L Hand
+    400020: BOAR_ L HorseLink
+    400022: BOAR_ L Thigh
+    400024: BOAR_ L UpperArm
+    400026: BOAR_ Neck
+    400028: BOAR_ Neck1
+    400030: BOAR_ Neck2
+    400032: BOAR_ Pelvis
+    400034: BOAR_ Queue de cheval 1
+    400036: BOAR_ R Calf
+    400038: BOAR_ R Clavicle
+    400040: BOAR_ R Finger0
+    400042: BOAR_ R Finger0Nub
+    400044: BOAR_ R Foot
+    400046: BOAR_ R Forearm
+    400048: BOAR_ R Hand
+    400050: BOAR_ R HorseLink
+    400052: BOAR_ R Thigh
+    400054: BOAR_ R UpperArm
+    400056: BOAR_ Spine
+    400058: BOAR_ Spine1
+    7400000: walk2
     9500000: //RootNode
-    11100000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -92,20 +85,20 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 2
+    animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: paralysed
+      name: walk2
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 60
-      wrapMode: 2
+      lastFrame: 30
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -131,14 +124,14 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -146,24 +139,24 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 2
     human: []
@@ -177,9 +170,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: caddb684ba608a74fb782611b671fa0d,
+    type: 3}
   animationType: 2
   humanoidOversampling: 1
   additionalBone: 0

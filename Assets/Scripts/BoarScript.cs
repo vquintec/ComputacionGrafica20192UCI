@@ -36,6 +36,27 @@ public class BoarScript : MonoBehaviour
         StartCoroutine(NewHeading());
     }
 
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Change the cube color to green.
+        if (other.tag == "Player")
+        {
+            anim.SetBool("run", true);
+            controller.enabled = false;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            anim.SetBool("run", false);
+            controller.enabled = true;
+        }
+    }
+
+
     void Update()
     {
         transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);

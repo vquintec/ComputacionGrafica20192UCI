@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 7d72b7cb7d55bcd4592c5b25f61dd9c0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: STANDARD_WOLF
+    100004: STANDARD_WOLF_
+    100006: STANDARD_WOLF_ Head
+    100008: STANDARD_WOLF_ L Calf
+    100010: STANDARD_WOLF_ L Clavicle
+    100012: STANDARD_WOLF_ L Finger0
+    100014: STANDARD_WOLF_ L Foot
+    100016: STANDARD_WOLF_ L Forearm
+    100018: STANDARD_WOLF_ L Hand
+    100020: STANDARD_WOLF_ L HorseLink
+    100022: STANDARD_WOLF_ L Thigh
+    100024: STANDARD_WOLF_ L Toe0
+    100026: STANDARD_WOLF_ L UpperArm
+    100028: STANDARD_WOLF_ Neck
+    100030: STANDARD_WOLF_ Neck1
+    100032: STANDARD_WOLF_ Neck2
+    100034: STANDARD_WOLF_ Pelvis
+    100036: STANDARD_WOLF_ Queue de cheval 1
+    100038: STANDARD_WOLF_ R Calf
+    100040: STANDARD_WOLF_ R Clavicle
+    100042: STANDARD_WOLF_ R Finger0
+    100044: STANDARD_WOLF_ R Foot
+    100046: STANDARD_WOLF_ R Forearm
+    100048: STANDARD_WOLF_ R Hand
+    100050: STANDARD_WOLF_ R HorseLink
+    100052: STANDARD_WOLF_ R Thigh
+    100054: STANDARD_WOLF_ R Toe0
+    100056: STANDARD_WOLF_ R UpperArm
+    100058: STANDARD_WOLF_ Spine
+    100060: STANDARD_WOLF_ Spine1
+    100062: STANDARD_WOLF_ Tail
+    100064: STANDARD_WOLF_ Tail1
+    100066: STANDARD_WOLF_ Tail2
+    100068: STANDARD_WOLF_ Tail3
+    100070: STANDARD_WOLF_ Tail4
+    400000: //RootNode
+    400002: STANDARD_WOLF
+    400004: STANDARD_WOLF_
+    400006: STANDARD_WOLF_ Head
+    400008: STANDARD_WOLF_ L Calf
+    400010: STANDARD_WOLF_ L Clavicle
+    400012: STANDARD_WOLF_ L Finger0
+    400014: STANDARD_WOLF_ L Foot
+    400016: STANDARD_WOLF_ L Forearm
+    400018: STANDARD_WOLF_ L Hand
+    400020: STANDARD_WOLF_ L HorseLink
+    400022: STANDARD_WOLF_ L Thigh
+    400024: STANDARD_WOLF_ L Toe0
+    400026: STANDARD_WOLF_ L UpperArm
+    400028: STANDARD_WOLF_ Neck
+    400030: STANDARD_WOLF_ Neck1
+    400032: STANDARD_WOLF_ Neck2
+    400034: STANDARD_WOLF_ Pelvis
+    400036: STANDARD_WOLF_ Queue de cheval 1
+    400038: STANDARD_WOLF_ R Calf
+    400040: STANDARD_WOLF_ R Clavicle
+    400042: STANDARD_WOLF_ R Finger0
+    400044: STANDARD_WOLF_ R Foot
+    400046: STANDARD_WOLF_ R Forearm
+    400048: STANDARD_WOLF_ R Hand
+    400050: STANDARD_WOLF_ R HorseLink
+    400052: STANDARD_WOLF_ R Thigh
+    400054: STANDARD_WOLF_ R Toe0
+    400056: STANDARD_WOLF_ R UpperArm
+    400058: STANDARD_WOLF_ Spine
+    400060: STANDARD_WOLF_ Spine1
+    400062: STANDARD_WOLF_ Tail
+    400064: STANDARD_WOLF_ Tail1
+    400066: STANDARD_WOLF_ Tail2
+    400068: STANDARD_WOLF_ Tail3
+    400070: STANDARD_WOLF_ Tail4
+    2100000: STANDARD_WOLF
+    4300000: STANDARD_WOLF
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: STANDARD_WOLF
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
